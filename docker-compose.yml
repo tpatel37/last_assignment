@@ -1,0 +1,8 @@
+version: "3"
+services:
+  portfolio:
+    container_name: patel_tiyaben_coding_assignment14
+    build: .
+    ports:
+      - "5575:80"
+    working_dir: /patel_tiyaben_final_site
